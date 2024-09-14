@@ -39,6 +39,5 @@
 
 1. **YouTube Channel**: For more tutorials and hands-on coding sessions, check out [CreepyD246](https://www.youtube.com/@CreepyD246) and the **MIA Sessions**.
    
-2. **ChatGPT**: This README and code were structured with the help of **ChatGPT**, an AI tool that assisted with the explanation, debugging, and refinement of the project. 
-
+2. **ChatGPT**: some tips to write the code and error fixing **ChatGPT**
 ---
