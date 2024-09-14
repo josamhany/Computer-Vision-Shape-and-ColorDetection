@@ -39,5 +39,5 @@
 
 1. **YouTube Channel**: For more tutorials and hands-on coding sessions, check out [CreepyD246](https://www.youtube.com/@CreepyD246) and the **MIA Sessions**.
    
-2. **ChatGPT**: some tips to write the code and error fixing **ChatGPT**
+2. **ChatGPT**: some tips to write the code , error fixing and help me to form this README file
 ---
