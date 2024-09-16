@@ -46,10 +46,10 @@ A mask is created from the contour, and the mean color value inside the shape is
 ```
 Then color is decided based  on the mean color value:
 
-Red: 0° ≤ hue ≤ 10° or hue ≥ 160°
-Green: 35° < hue < 85°
-Blue: 100° < hue ≤ 130°
-Yellow: 20° ≤ hue ≤ 30°
+* Red: 0° ≤ hue ≤ 10° or hue ≥ 160°
+* Green: 35° < hue < 85°
+* Blue: 100° < hue ≤ 130°
+* Yellow: 20° ≤ hue ≤ 30°
 
 ---
 
