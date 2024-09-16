@@ -32,6 +32,24 @@
    - **Triangle**: 3 vertices
    - **Square/Rectangle**: 4 vertices (Square if width ≈ height)
    - **Circle**: More than 4 vertices
+   - 
+###Techniques for Color Detection
+
+**Color Detection Function**:
+
+A mask is created from the contour, and the mean color value inside the shape is extracted. This value is then converted to HSV to classify the color:
+```python
+    mask = np.zeros_like(image)
+    cv2.drawContours(mask, [contour], -1, (255, 255, 255), thickness=cv2.FILLED)
+    mean_val = cv2.mean(image, mask=mask[:,:,0])
+    hsv = cv2.cvtColor(np.uint8([[mean_val[:3]]]), cv2.COLOR_BGR2HSV)[0][0]
+```
+Then color is decided based  on the mean color value:
+
+Red: 0° ≤ hue ≤ 10° or hue ≥ 160°
+Green: 35° < hue < 85°
+Blue: 100° < hue ≤ 130°
+Yellow: 20° ≤ hue ≤ 30°
 
 ---
 
