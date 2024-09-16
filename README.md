@@ -33,7 +33,7 @@
    - **Square/Rectangle**: 4 vertices (Square if width ≈ height)
    - **Circle**: More than 4 vertices
    - 
-###Techniques for Color Detection
+### Techniques for Color Detection
 
 **Color Detection Function**:
 
